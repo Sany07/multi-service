@@ -50,14 +50,13 @@ const displayResult = (meals)=>{
     meals.map(meal => {
         console.log(meal);
         const div = document.createElement('div')
-        div.classList.add('col');
+        div.classList.add('col-md-4');
         div.innerHTML = ` 
         <div class="card">
           <img src="${meal.strMealThumb}" class="img-fluid card-img-top img" alt="...">
           <div class="card-body">
             <h5 class="card-title">${meal.strMeal}</h5>
-            <p class="card-text">
-                <input onclick="loadMealDetail(${meal.idMeal})" id="dt-btn" class="btn btn-info text-white" type="submit" value="Details">
+            <p class="card-text"><b>Instruction:</b> ${meal.strInstructions}
             </p>
           </div>
         </div>`;
