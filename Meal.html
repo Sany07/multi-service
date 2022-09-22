@@ -84,7 +84,7 @@
                 <div class="collapse navbar-collapse" id="main-navbar">
                     <ul class="navbar-nav mr-auto w-100 justify-content-center">
                         <li class="nav-item acive">
-                            <a class="nav-link" href="">
+                            <a class="nav-link" href="/">
                                 Home
                             </a>
                         </li>
@@ -106,7 +106,7 @@
         
             <ul class="mobile-menu">
                 <li class="nav-item acive">
-                    <a class="nav-link" href="/">
+                    <a class="nav-link" href="">
                         Home
                     </a>
                 </li>
@@ -123,10 +123,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="breadcrumb-wrapper">
-                        <h2 class="product-title">Color Code Generator</h2>
+                        <h2 class="product-title">Search Recipe</h2>
                         <ol class="breadcrumb">
                             <li><a href="/">Home /</a></li>
-                            <li class="current">Color Code Generator</li>
+                            <li class="current">Search Recipe</li>
                         </ol>
                     </div>
                 </div>
@@ -136,31 +136,19 @@
 
     <section class="login section-padding">
         <div class="container">
-            <div id="root" class="row justify-content-center">
-                <div class="col-lg-5 col-md-12 col-xs-12">
-                    <div class="login-form login-area">
-                        <h3>
-                        </h3>
-                               <div id="rgb-Color" class="color-area border-5 p-3 text-white">
-            </div>
-                        <div class="login-form">
-                            <div class="form-group">
-                                <div class="input-icon">
-                                    <i class="lni-user"></i>
-                                    <input type="text" id="rgb-color-code" class="form-control" name="text"
-                                           placeholder="" disabled>
-                                  
-                                </div>
-                                <span class="btn btn-info text-white " id="rgb-copy-button">Copy</span>
-                            </div>
-                            <div class="text-center">
-                                <button id="ge-button" class="btn btn-common log-btn">Generate</button>
-                            </div>
-                        
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="m-5">
+                        <input class="form-control" type="text" name="search" placeholder="Search Recipe" id="search-box">
+                        <button id="search-btn" class="btn btn-info">Search</button>
                     </div>
+                </div>
+                <div id="search-result" class="row row-cols-1 row-cols-md-2 g-4">
+                </div>       
                 </div>
             </div>
         </div>
+    
     </section>
     <footer>
     
@@ -253,7 +241,7 @@
 <script src="assets/js/wow.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
 <script src="assets/js/jquery.slicknav.js"></script>
-<script src="assets/js/color.js"></script>
+<script src="assets/js/Meal.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/form-validator.min.js"></script>
 <script src="assets/js/contact-form-script.min.js"></script>
